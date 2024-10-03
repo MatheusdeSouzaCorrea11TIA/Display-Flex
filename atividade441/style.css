@@ -30,10 +30,37 @@ img {
     gap: 8rem;
 }
 
+.primeira p {
+    max-width: 24rem;
+}
+
 .segunda {
     display: flex;
     background-color: var(--silver-lake-blue);
     height: 24rem;
+    gap: 2rem;
     justify-content: center;
-    align-items: stretch;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.segunda img {
+    width: 16rem;
+    height: 16rem;
+}
+
+.segunda p {
+    max-width: 20rem;
+}
+
+.terceira {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.terceira img {
+    width: 16rem;
+    height: 16rem;
 }
